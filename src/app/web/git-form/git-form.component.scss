@@ -1,0 +1,87 @@
+.form-info {
+    .name {
+        width: 30%
+    }
+
+    .dni {
+        width: 30%; 
+        margin-left: 1rem;
+    }
+
+    .birth-date {
+        width: 30%; 
+        margin-left: 1rem;
+    }
+
+    .email {
+        width: 30%;
+    }
+
+    .github {
+        width: 30%; 
+        margin-left: 1rem;
+    }
+
+    .but {
+        margin-left: 1rem;
+    }
+}
+
+.error {
+    font-weight: bold; 
+    color:red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-height: 500px;
+    overflow: auto;
+
+    .header {
+        min-height: 64px;
+        padding: 8px 24px 0;
+
+        .user-info {
+            text-align: center;
+
+            .name {
+                font-family: Roboto, "Helvetica Neue", sans-serif;
+                display: inline-block;
+            }
+
+            .dni {
+                font-family: Roboto, "Helvetica Neue", sans-serif;
+                display: inline-block;
+                margin: 1rem;
+            }
+
+            .birthdate {
+                font-family: Roboto, "Helvetica Neue", sans-serif;
+                display: inline-block;
+            }
+
+            .email {
+                font-family: Roboto, "Helvetica Neue", sans-serif;
+                margin: 1rem;
+                display: inline-block;
+            }
+
+            .git {
+                font-family: Roboto, "Helvetica Neue", sans-serif;
+                display: inline-block;
+            }
+        }
+    }
+
+    .filter {
+        width: 35%;
+    }
+}
+  
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
